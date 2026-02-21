@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
 import unittest
 from services import CustomerService
 from models import Customer
-
 
 class TestCustomerService(unittest.TestCase):
     def setUp(self):
