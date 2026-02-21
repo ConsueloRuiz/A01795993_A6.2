@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 import unittest
 from services import HotelService
 from models import Hotel
+
 
 class TestHotelService(unittest.TestCase):
     def setUp(self):

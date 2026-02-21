@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
+# !/usr/bin/env python
 """
-este modulo define las clases de datos para el sistema de reservas de hoteles.
+# este modulo define las clases de datos
+# para el sistema de reservas de hoteles.
 """
 
 from dataclasses import dataclass
+
 
 @dataclass
 class Hotel:
@@ -25,7 +27,8 @@ class Customer:
 
 @dataclass
 class Reservation:
-    """ Clase que representa una reserva con su informacion basica. """
+    """ Clase que representa una reserva
+    con su informacion basica. """
     reservation_id: str
     hotel_id: str
     customer_id: str
